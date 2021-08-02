@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hirnandani Hinjewadi Pune New Launch Property</title>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous" ></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!--Header-->
+
+    <div class="header">
+
+        <div class="header-top">
+          
+           
+            <div class="social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-google"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+
+            
+                <a href="#" class="phoneno"><i class="fa fa-phone">-91</i></a>
+                      
+        </div>
+
+        <hr>
+
+        <!--header-bottom------>
+
+        <div class="header-bottom">
+
+            <img src="logo.png" alt="" height="8%" width="8%" class="logosize">
+
+            <div class="navigation">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Price</a></li>
+                    <li><a href="">Floor Plans</a></li>
+                    <li><a href="">Master Plans</a></li>
+                    <li><a href="">Location</a></li>
+                    <li><a href="" class="booknow_btn" id="formdetails">Booknow</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!--Banner main---->
+
+    <div class="banner">
+        <div class="banner_img">
+            <img src="hiranandani-hinjewadi-header.jpg" alt="">
+        </div>
+    </div>
+
+
+    <!--form----------------------->
+
+    <div class="form">
+        <!--login---------------->
+        <div class="login-form">
+           
+                        <!--heading of form-->
+            <span>YES ,I AM INTERESTED IN <br>HIRANANDANI HINJEWADI</span>
+                        
+                         <!--cancel botton for login form------>
+            <a href="#" class="form-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+            <form class="login">
+                <input type="text" placeholder="Your Name" name="name"  required><br>
+                <select name="country" id="">
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="China">China</option>
+                </select>
+                <input type="text" placeholder="Your Phone no."  name="yourphoneno" class="phonenoyours" required><br>
+                <input type="text" placeholder="Your Email"  name="email" required><br>
+                <input type="text" placeholder="Your Message"  name="message" required><br>
+                <!--submit button------>
+                <input type="submit" value="SUBMIT" class="submit_btn">
+            </form>
+        </div>
+    </div>
+    
+
+    
+    <script src="js/jQuery.js"></script>
+    
+    <script type="text/javascript">
+//form display
+$(document).on('click','.booknow_btn',function(){
+    $('.form').addClass('login-active')
+});
+
+
+
+</script>
+</body>
+</html>

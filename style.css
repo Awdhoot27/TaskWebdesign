@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    background-color: #ffffff;
+}
+
+
+.header-top{ 
+   
+    display: flex;
+    justify-content: center;
+ 
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 10%;
+    padding-right: 60%;
+    margin-top: 10px;
+    width: 100%;
+    
+}
+
+.social a{
+    margin-right: 1em;
+    
+}
+
+
+.phoneno{
+    padding-right: 15%;
+    margin-top: 10px;
+    color: rgb(99, 98, 98);
+    display: flex;
+    padding-left: 10px;
+    text-decoration: none;
+    
+}
+
+.header-bottom{
+    display: flex;
+    justify-content: center;
+   margin: 0%;
+   width: 100%;
+}
+
+.logosize{
+    padding-right: 150px;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: center;
+    margin-left:10px;
+   
+    width: 100%;
+    height: 10%;
+   
+}
+
+ul li{
+    justify-content: space-between;
+    padding-left: 65px;
+    list-style: none;
+    text-decoration:none;
+}
+
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(99, 98, 98);
+    font-size: 15px;
+}
+
+.booknow_btn{
+    color:black;
+    padding: 26px;
+    background-color:rgb(231, 130, 112) ;
+    font-weight:700;
+}
+
+.banner{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+.form{
+    position: absolute;
+    border:1px solid black;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+    top: 15.6%;
+    right: 9%;
+    background:rgba(0,0,0,.8);
+    opacity:100%;
+    color: white;
+}
+
+
+.login-active{
+    display: flex;
+}
+
+
+input{
+  padding:15px;
+  background: none;
+  border-style: none;
+  border: 1px solid white;
+  color: #ffffff;
+  margin-top: 20px;
+  width: 89%;
+}
+
+select{
+    padding:15px;
+  background:none;
+  
+  border-style: none;
+  border: 1px solid white;
+  color: #ffffff;
+}
+select option{
+    color: black;
+}
+.phonenoyours{
+    width:auto
+}
+
+.submit_btn{
+    width: 100%;
+    background: none;
+}
+
+.login-form a{
+    position: absolute;
+    top:5%;
+    right: 13%;
+    font-size: 22px;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.login-form span{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    margin: 5px;
+    font-size: 18px;
+    font-style: unset;
+}
+
+.submit_btn:hover{
+    background-color:rgb(231, 130, 112);
+}
